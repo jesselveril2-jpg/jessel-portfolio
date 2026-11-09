@@ -681,16 +681,17 @@ elif page == "Experience":
     """, unsafe_allow_html=True)
 
 
+
 # ==========================================
 # CONTACT
 # ==========================================
 
 elif page == "Contact":
 
-st.markdown(
-    """<div class="eyebrow">LET'S WORK TOGETHER</div>""",
-    unsafe_allow_html=True
-)
+    st.markdown(
+        """<div class="eyebrow">LET'S WORK TOGETHER</div>""",
+        unsafe_allow_html=True
+    )
 
     st.title("Get in Touch 💌")
 
@@ -725,7 +726,10 @@ st.markdown(
         st.markdown(f"[TikTok Profile]({TIKTOK})")
 
     if not any([INSTAGRAM, FACEBOOK, TIKTOK]):
-        st.caption("Your social media links will appear here once added.")
+        st.caption(
+            "Your social media links will appear here once added."
+        )
+
 
 
 # ==========================================
