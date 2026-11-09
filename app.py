@@ -687,10 +687,10 @@ elif page == "Experience":
 
 elif page == "Contact":
 
-    st.markdown(
-        '<div class="eyebrow">LET'S WORK TOGETHER</div>',
-        unsafe_allow_html=True
-    )
+st.markdown(
+    """<div class="eyebrow">LET'S WORK TOGETHER</div>""",
+    unsafe_allow_html=True
+)
 
     st.title("Get in Touch 💌")
 
