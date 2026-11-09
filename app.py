@@ -244,9 +244,9 @@ with st.sidebar:
 
 if page == "Home":
 
-    st.markdown("""
+   
+        st.html("""
     <div class="hero">
-
         <div class="eyebrow">
             VIDEO EDITOR • CREATIVE CONTENT
         </div>
@@ -258,9 +258,9 @@ if page == "Home":
         <p>
             Turning ideas into engaging visual stories.
         </p>
-
     </div>
-    """, unsafe_allow_html=True)
+    """)
+    unsafe_allow_html=True)
 
     col1, col2 = st.columns([1.3, 1])
 
